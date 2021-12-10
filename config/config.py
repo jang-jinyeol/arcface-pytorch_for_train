@@ -15,10 +15,10 @@ class Config(object):
     train_root = 'D:/CASIA-maxpy-clean/CASIA-maxpy-clean'
 
     train_list = 'D:/cleaned_list.txt'
-    val_list = '/data/Datasets/webface/val_data_13938.txt'
-
-    test_root = '/data1/Datasets/anti-spoofing/test/data_align_256'
-    test_list = 'test.txt'
+    # val_list = '/data/Datasets/webface/val_data_13938.txt'
+    #
+    # test_root = '/data1/Datasets/anti-spoofing/test/data_align_256'
+    # test_list = 'test.txt'
 
     # lfw_root = '/data/Datasets/lfw/lfw-align-128'
     lfw_root = 'D:/lfw-deepfunneled(new_ver)/lfw-deepfunneled'
