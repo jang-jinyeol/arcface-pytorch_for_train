@@ -55,8 +55,8 @@ class Dataset(data.Dataset):
 
 
 if __name__ == '__main__':
-    dataset = Dataset(root='/data/Datasets/fv/dataset_v1.1/dataset_mix_aligned_v1.1',
-                      data_list_file='/data/Datasets/fv/dataset_v1.1/mix_20w.txt',
+    dataset = Dataset(root='D:/CASIA-maxpy-clean/CASIA-maxpy-clean',
+                      data_list_file='D:/cleaned_list.txt',
                       phase='test',
                       input_shape=(1, 128, 128))
 
